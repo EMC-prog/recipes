@@ -35,13 +35,11 @@
       <li> <a href="recipes/brownies.html">Brownies</a> </li>
     </ul>
   </div>
-  <button onclick="  navigator.share({
+  <a onclick="  navigator.share({
     title: 'web.dev',
     text: 'Check out web.dev.',
     url: 'https://web.dev/',
-  })
-    .then(() => console.log('Successful share'))
-                   .catch((error) => console.log('Error sharing', error));">Compartir app</button>
+  })">Compartir app</a>
 </footer>
 <script src="js/script.js"></script>
 </body>
