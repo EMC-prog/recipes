@@ -1,3 +1,4 @@
+const version = '1';
 ;
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_pwa_app_cache',
