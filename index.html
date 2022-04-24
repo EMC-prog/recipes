@@ -40,7 +40,8 @@
     <br>
     <br>
     <a onclick="  navigator.share({ title: 'Compartir EMC Recetas', text: '¡Cocina con EMC Recetas!', url: 'https://emc-prog.github.io/recipes/',})">Compartir app</a>
-<a onclick="self.addEventListener('activate', function(event) {
+<br>
+    <a onclick="self.addEventListener('activate', function(event) {
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
       return Promise.all(
